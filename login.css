@@ -1,0 +1,123 @@
+*{  
+    box-sizing: border-box;
+}
+body{
+    
+    
+    background: url(2.jpg.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}header{
+    background: transparent;
+    width: 100%;
+    
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+main .site{
+    width: 100%;
+}
+main .login{
+    display: flex;
+    justify-content: center;
+    
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+nav img{
+    width: 120px;
+    height: 200px;
+}
+
+
+nav ul{
+    display: flex;
+}
+nav li{
+    list-style: none;
+    margin: 10px;
+}
+.site {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    background-color: rgb(102, 144, 190);
+    
+}
+.site a{
+    text-decoration: none;
+    
+    padding: 20px;
+}
+
+.site a:hover{
+     
+    background-color:silver ;
+}
+
+.login{
+    width: 420px;
+   background: transparent;
+   border: 2px solid rgb(91, 59, 195);
+    color: aliceblue;
+}
+.login h1{
+    font-size: 32px;
+    text-align: center;
+}
+.login .inputbox{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inputbox input{
+    width: 100%;
+    height: 30px;
+    border-radius: 20px;
+}
+.login .remember{
+    display: flex;
+    justify-content: space-around;
+    height: 30px;
+    margin: 10px;
+    
+}
+.remember a {
+    color: aliceblue;
+    text-decoration: none;
+}
+.remember a:hover{
+    text-decoration: underline;
+}
+.login .button{
+    
+    width: 100%;
+    height: 30px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.button:hover{
+    background-color: antiquewhite;
+}
+.login .register{
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.register a {
+    color: aliceblue;
+    text-decoration: none;
+}
